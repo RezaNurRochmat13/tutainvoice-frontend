@@ -1,8 +1,7 @@
 <script setup lang="ts">
+import HealthStatus from './components/HealthStatus.vue';
 </script>
 
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gray-50">
-    <h1 class="text-2xl font-bold">Tuta Invoice</h1>
-  </div>
+  <HealthStatus />
 </template>
